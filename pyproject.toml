@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pyspark"
+name = "projeto_pyspark"
 version = "0.1.0"
 description = ""
 authors = ["victor <victorsoaresferreira09@gmail.com>"]
@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 jupyter = "^1.0.0"
+findspark = "^2.0.1"
+pyspark = "^3.1.2"
 
 
 [build-system]
